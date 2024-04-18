@@ -1,0 +1,55 @@
+
+p.red {
+    color: red;
+    font-style: normal;
+    font-weight: bold;
+}
+p {
+    color:brown;
+    font-style: italic;
+}
+div.content {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1em;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+h1 {
+    border: 2px solid gray;
+    background-color: brown;
+}
+div.main {
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+}
+div.main > * {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    color:rgb(11, 40, 6);
+}
+td {
+    border: 1px solid black;
+    margin: 0;
+}
+th {
+    font-style: italic;
+    background-color: gray;
+}
+td.highlightRed {
+    background-color: rgb(217, 75, 75);
+}
+tr.highlightGreen {
+    background-color: rgb(45, 186, 40);
+
+}
+*.highlightYellow {
+    background-color: rgb(238, 255, 0);
+}

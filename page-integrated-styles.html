@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+    div.content {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 12pt;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1em;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+    h1 {
+        border: 2px solid gray;
+        background-color: brown;
+    }
+    div.main {
+        max-width: 800px;
+        min-width: 500px;
+        margin: auto;
+    }
+    div.main > * {
+        width: 100%;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    td, th {
+        color:rgb(11, 40, 6);
+    }
+    td {
+        border: 1px solid black;
+        margin: 0;
+    }
+    th {
+        font-style: italic;
+        background-color: gray;
+    }
+    td.highlightRed {
+        background-color: rgb(217, 75, 75);
+    }
+    tr.highlightGreen {
+        background-color: rgb(45, 186, 40);
+
+    }
+    *.highlightYellow {
+        background-color: rgb(238, 255, 0);
+    }
+    </style>
+  </head>
+  <body>
+    <h1 class="highlightYellow">Hi</h1>
+    <a href="test.html">link</a>
+
+    <div class="main">
+      <img src="img/cat.jpg" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+        ultrices porttitor fringilla. Quisque a ultrices sem. Aliquam erat
+        volutpat. Vivamus molestie purus arcu, ac consequat ante auctor in.
+        Vestibulum nisi augue, semper at ligula ut, placerat tempus enim.
+        Vestibulum ultricies risus lectus, id pellentesque enim dignissim a.
+        Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing
+       vel gravida arcu venenatis eu. Curabitur tempor lacus id lectus tempus,
+        id porttitor ex mollis. Nunc maximus ac augue sed sodales. Aenean
+        gravida mauris ut nisl aliquam condimentum. Phasellus luctus, arcu quis
+        dictum facilisis, quam enim facilisis ante, et congue mi felis ac arcu.
+        Aenean pharetra laoreet ligula, nec mollis ex vulputate non.
+      </p>
+      <table>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+        </tr>
+        <tr>
+          <td>Hi</td>
+          <td class="highlightRed">Hi 2</td>
+          <td>Hi 3</td>
+        </tr>
+        <tr class="highlightRed">
+          <td>Hi</td>
+          <td class="highlightGreen">Hi 2</td>
+          <td>Hi 3</td>
+        </tr>
+        <tr>
+          <td colspan="2">This spans allsa dfasdf columns...</td>
+          <td>third col</td>
+        </tr>
+        <tr class="highlightGreen">
+          <td>Hi</td>
+          <td>Hi 2</td>
+          <td>Hi 3</td>
+        </tr>
+        <tr class="highlightYellow">
+          <td>Hi</td>
+          <td>Hi 2</td>
+          <td>Hi 3</td>
+        </tr>
+        <tr>
+          <td>Hi</td>
+          <td class="highlightYellow">Hi 2</td>
+          <td>Hi 3</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
