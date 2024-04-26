@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    function getTime() {
+        var date = new Date();
+        var time = date.toLocaleTimeString();
+        document.getElementById('demo2')
+            .innerHTML = time;
+    }
+</script>
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="getTime()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+</body>
+</html> 
+

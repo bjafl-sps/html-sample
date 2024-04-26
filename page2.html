@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *.red {
+                color: red;
+            }
+            #productNumber {
+                font-family: 'Courier New', Courier, monospace;
+            }
+            body {
+                color: black;
+            }
+            div.name {
+                font-size: larger;
+                font-weight: bold;
+            }
+            div.infoBox {
+                border: 2px black solid;
+                padding: 10px;
+                width: 100px;
+            }
+            div.storeInfo > div.name {
+                font-style: italic;
+                font-weight: normal;
+            }
+            div.storeInfo {
+                margin: 10px;
+                background-color: aliceblue;
+            }
+            div.productInfo {
+                margin: 10px;
+                background-color: rosybrown;
+            }
+            div.greenRectangle {
+                background-color: green;
+                height: 50px;
+            }
+            ul li {
+                color: red;
+            }
+            ul li:hover {
+                color:blue;
+            }
+            ul li:last-child {
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="red">Title</h1>
+        text outside div
+        <div class="red" id="productNumber">233443</div>
+        <div class="red">other div</div>
+
+        <ul>
+            <li>banana</li>
+            <li>apple</li>
+            <li>pears</li>
+            <li>kiwi</li>
+        </ul>
+        <p>ddd</p>
+        <div class="productInfo infoBox">
+            <div class="name">
+                Banana
+            </div>
+            <div class="description">
+                It's yellow.
+            </div>
+        </div>        
+        <div class="storeInfo infoBox">
+            <div class="name">
+                Coop Extra
+            </div>
+            <div class="description">
+                I like this store.
+            </div>
+        </div>
+        <div class="greenRectangle"></div>
+
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/QsM6b5yix0U?si=FAW6Haiy6FoVOdg2" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+
+        <iframe width="500" height="300" src="page.html"></iframe>
+    </body>
+</html>

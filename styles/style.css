@@ -42,6 +42,7 @@ td {
 th {
     font-style: italic;
     background-color: gray;
+    
 }
 td.highlightRed {
     background-color: rgb(217, 75, 75);
